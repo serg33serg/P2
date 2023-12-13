@@ -7,7 +7,7 @@
 @font-face {
     font-family: "DM Sans";
     src: url("../fonts/Dm/DmSansRegular-ZVWM3.woff");
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 @font-face {
@@ -60,33 +60,29 @@ html {
     max-width: 1600px;
     margin: 0 auto;
 }
-.contain1{
+.card1{
     position: relative;
-    width: 1600px;
-    height: 1200px;
-    background-image: url("../img/Branding.jpg");
 }
-.scale4{
-    width: 100%;
-}
-.cont1{
+.card2{
     position: absolute;
+    width: 25vw;
     top: 0px;
     left: 0px;
 }
-.cont2{
+.card3{
     position: absolute;
-    top: 348px;
-    left: 5px;
-    transform: rotate(-90deg);
+    width: 1vw;
+    top: 17vw;
+    left: 5vw;
 }
-.cont3{
+.card4{
     position: absolute;
-    top: 333px;
-    left: 16px;
-    transform: rotate(-90deg);
+    width: 15vw;
+    top: 0px;
+    left: 0px;
 }
-.font__14-400__gray{
+
+.font__14-400__kraft1{
     color: #333;
     font-family: DM Sans;
     font-size: 14px;
@@ -94,73 +90,38 @@ html {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
 }
-.font__18-500__gray{
-    color: #333;
-    font-family: DM Sans;
-    font-size: 18px;
-    ont-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.contain22{
-    display: grid;
-    grid-template-columns: 35% 27% 38%;
-    grid-template-rows: 75vw;
-}
-.scale1{
-    width:100%;
-}  
-.scale2{
-    width: 65%;
-}
-.contain2{
-    width: 100%;
-    position: fixed;
+.card5{
+    position: absolute;
     top: 0px;
     left: 0px;
-}  
-.contain21{
-    max-width: 1600px;
-    margin: 0 auto;  
+    width: 15vw;
 }
-.col1{
-    display: flex;
-    /* position: relative; */
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 7.5vw;
-}
-.proba1{
+.layer2{
     position: absolute;
     top: 7.5vw;
     left: 15vw;
-    width: 320px;
-    height: 420px;
-    width: 60%;
+    max-width: 320px;
+    width: 20vw;
 }
-.ba1{
-    width: 60%;
-}
-.proba11{
+.layer22{
     position: relative;
 }
-.pr1{
+.layer2__2{
     position: absolute;
-    top: 10vw;
-    left: 2vw;
+    top: 14vw;
+    left: 1vw;
 }
-.col2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.font__12-500__black{
+    color: #333;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 14px;
 }
-.scale3{
-    width: 85%;
-} 
-.col3{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 7.5vw;
+.layer2__3{
+
 }
