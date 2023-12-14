@@ -1,0 +1,9 @@
+.proba{
+    width: 200px;
+    height: 100px;
+   border: 2px solid;
+   border-color: brown;
+}
+.proba1{
+    background: url(../img/buket.jpg);
+}
