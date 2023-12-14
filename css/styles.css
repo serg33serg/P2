@@ -597,9 +597,19 @@ html {
     .font__12-500__black {
         font-size: calc(4px + 8 * (100vw / 1600));
         line-height: calc(4px + 10 * (100vw / 1600));
- }}
+ }
+ .font__DM__566 {
+    font-size: calc(24px + 32 * (100vw / 1600));
+} 
+.font__Play__566 {
+    font-size: calc(24px + 32 * (100vw / 1600));
+}
+.lay-4-24 {
+    padding-top: 11%;
+}
+}
 @media (max-width: 1450px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 52.63px;
     } 
     .font__Play__566 {
@@ -608,10 +618,10 @@ html {
     }
     .lay-4-24 {
         padding-top: 11%;
-    }
+    } */
  }
  @media (max-width: 1350px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 50.63px;
     } 
     .font__Play__566 {
@@ -620,11 +630,11 @@ html {
     }
     .lay-4-24 {
         padding-top: 10%;
-    }
+    } */
  }
  
  @media (max-width: 1150px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 48px;
         line-height: 48px;
     } 
@@ -635,13 +645,12 @@ html {
     .lay-4-24 {
         padding-top: 11%;
         left: 64%;
-    }
+    } */
  }
  @media (max-width: 1050px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 44px;
         line-height: 48px;
-        /* font-weight: 400; */
     } 
     .font__Play__566 {
         font-size: 44px;
@@ -651,10 +660,20 @@ html {
     .lay-4-24 {
         padding-top: 11%;
         left: 64%;
-    }
+    } */
  }
  @media (max-width: 950px) {
     .font__DM__566 {
+        font-size: calc(23px + 30 * (100vw / 1600));
+    } 
+    .font__Play__566 {
+        font-size: calc(23px + 30 * (100vw / 1600));
+    }
+    .lay-4-24 {
+        padding-top: 10%;
+        left: 63.5%;
+    }
+    /* .font__DM__566 {
         font-size: 40px;
         line-height: 46px;
     } 
@@ -666,13 +685,12 @@ html {
     .lay-4-24 {
         padding-top: 10%;
         left: 64%;
-    }
+    } */
  }
  @media (max-width: 850px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 34px;
         line-height: 42px;
-        /* font-weight: 400; */
     } 
     .font__Play__566 {
         font-size: 34px;
@@ -682,7 +700,7 @@ html {
     .lay-4-24 {
         padding-top: 10%;
         left: 64%;
-    }
+    } */
     .font__12-500__black {
         font-size: calc(3px + 8 * (100vw / 1600));
         line-height: calc(3px + 10 * (100vw / 1600));
@@ -694,15 +712,35 @@ html {
 }
 .font__DM__18-500__Black {
     font-size: calc(5px + 8 * (100vw / 1600));
-}}
+}
+.font__DM__566 {
+    font-size: calc(22px + 28 * (100vw / 1600));
+} 
+.font__Play__566 {
+    font-size: calc(22px + 28 * (100vw / 1600));
+}
+.lay-4-24 {
+    padding-top: 10%;
+    left: 63.5%;
+}
+}
  
 
 
  @media (max-width: 750px) {
     .font__DM__566 {
+        font-size: calc(21px + 24 * (100vw / 1600));
+    } 
+    .font__Play__566 {
+        font-size: calc(21px + 24 * (100vw / 1600));
+    }
+    .lay-4-24 {
+        padding-top: 10%;
+        left: 63.5%;
+    }
+    /* .font__DM__566 {
         font-size: 28px;
         line-height: 36px;
-        /* font-weight: 400; */
     } 
     .font__Play__566 {
         font-size: 28px;
@@ -712,7 +750,7 @@ html {
     .lay-4-24 {
         padding-top: 10%;
         left: 64%;
-    }
+    } */
     .font__DM__40-500 {
         font-size: calc(8px + 24 * (100vw / 1600));
         }
@@ -762,7 +800,7 @@ html {
            }
  }
  @media (max-width: 650px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 24px;
         line-height: 30px;
     } 
@@ -773,7 +811,7 @@ html {
     .lay-4-24 {
         padding-top: 10%;
         left: 64%;
-    }
+    } */
     .font__DM__14-400__Black {
         font-size: calc(3px + 6 * (100vw / 1600));
     }
@@ -787,12 +825,21 @@ html {
     .layer2__3 {
         font-size: calc(4px + 7 * (100vw / 1600));
        }
+    .font__DM__566 {
+        font-size: calc(20px + 18 * (100vw / 1600));
+    } 
+    .font__Play__566 {
+        font-size: calc(20px + 18 * (100vw / 1600));
+    }
+    .lay-4-24 {
+        padding-top: 10%;
+        left: 63.5%;
+    }
  }
  @media (max-width: 550px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 20px;
         line-height: 26px;
-        /* font-weight: 400; */
     } 
     .font__Play__566 {
         font-size: 20px;
@@ -802,7 +849,7 @@ html {
     .lay-4-24 {
         padding-top: 10%;
         left: 64%;
-    }
+    } */
     .font__DM__18-500__white {
         font-size: calc(5px + 4 * (100vw / 1600));
     }
@@ -831,12 +878,21 @@ html {
     .lay-3-6 {
         left: 5.5%;
     }
+    .font__DM__566 {
+        font-size: calc(18px + 16 * (100vw / 1600));
+    } 
+    .font__Play__566 {
+        font-size: calc(18px + 16 * (100vw / 1600));
+    }
+    .lay-4-24 {
+        padding-top: 10%;
+        left: 63.5%;
+    }
  }
  @media (max-width: 450px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 14px;
         line-height: 20px;
-        /* font-weight: 400; */
     } 
     .font__Play__566 {
         font-size: 14px;
@@ -846,7 +902,7 @@ html {
     .lay-4-24 {
         padding-top: 10%;
         left: 64%;
-    }
+    } */
     .font__DM__40-500 {
         font-size: calc(2px + 12 * (100vw / 550));
         font-weight: 500;
@@ -906,9 +962,19 @@ html {
         font-size: calc(3px + 4 * (100vw / 1600));
         line-height: calc(3px + 6 * (100vw / 1600));
  }
+ .font__DM__566 {
+    font-size: calc(14px + 12 * (100vw / 1600));
+} 
+.font__Play__566 {
+    font-size: calc(14px + 12 * (100vw / 1600));
+}
+.lay-4-24 {
+    padding-top: 10%;
+    left: 63.5%;
+}
  }
  @media (max-width: 350px) {
-    .font__DM__566 {
+    /* .font__DM__566 {
         font-size: 10px;
         line-height: 14px;
     } 
@@ -919,7 +985,7 @@ html {
     .lay-4-24 {
         padding-top: 11%;
         left: 65%;
-    }
+    } */
     .lay-4-14{
         font-size: calc(4px + 5 * (100vw / 1600));
     }
@@ -972,4 +1038,14 @@ html {
         font-size: calc(2px + 4 * (100vw / 1600));
         line-height: calc(2px + 6 * (100vw / 1600));
  }
+ .font__DM__566 {
+    font-size: calc(12px + 10 * (100vw / 1600));
+} 
+.font__Play__566 {
+    font-size: calc(12px + 10 * (100vw / 1600));
+}
+.lay-4-24 {
+    padding-top: 10%;
+    left: 63.5%;
+}
 }
